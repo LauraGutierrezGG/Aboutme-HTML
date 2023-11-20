@@ -1,3 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {;
+    font-size: 36px;
+    color: #1F1F1F;
+}
+
 header {
     background-color: #FFD4D0;
 }
@@ -5,38 +14,47 @@ header {
 header h1 {
     background-color: #FFD4D0;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #1F1F1F;
 }
 
 header h2 {
     background-color: #FFD4D0;
     font-size: 48px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #1F1F1F;
+}
+
+header span {
+    background-color: #FFD4D0;
+    font-size: 48px;
+    color: #FC3314;
 }
 
 header p {
     background-color: #FFD4D0;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #1F1F1F;
 }
 
-section {
-    background-color: #1F1F1F;
-}
-
-section h3 {
-    background-color: #1F1F1F;
-    font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
+.text-white {
     color: #FFFFFF;
 }
 
-section p {
+.section-black {
     background-color: #1F1F1F;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF
+}
+
+.text-pink {
+    color: #FFD4D0;
+}
+
+
+----------
+
+.text-white, .text-white a, .text-white a:visited {
     color: #FFFFFF;
+}
+
+.footer {
+    padding: ;
 }
