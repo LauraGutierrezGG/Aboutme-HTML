@@ -1,3 +1,12 @@
+.nav-topbar {
+    text-align: center;
+    font-style: bold;
+    color: #1F1F1F;
+    font-size: 18px;
+    padding: 32px;
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -5,6 +14,14 @@ body {
 h3 {
     font-size: 36px;
     color: #1F1F1F;
+}
+
+.aligne-left {
+    align-: left;
+}
+
+.aligne-right {
+    text-align: right;
 }
 
 header {
@@ -64,6 +81,7 @@ header p {
     flex-direction: column;
     align-items: center;
     margin-right: 64px;
+    text-align: center;
 }
 
 
