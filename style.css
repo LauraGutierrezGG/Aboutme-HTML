@@ -1,9 +1,30 @@
 .nav-topbar {
+    background-color: #FFD4D0;
     text-align: center;
     font-style: bold;
     color: #1F1F1F;
     font-size: 18px;
     padding: 32px;
+}
+
+.link-topbar {
+    text-decoration: none;
+    color: #1F1F1F;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.link-letstalk {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
+    text-align: center;
 }
 
 body {
@@ -161,6 +182,38 @@ h6 {
     color: #1F1F1F;
     font-weight: lighter;
 }
+
+
+
+
+
+
+
+.list-section5left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    place-items: left;
+}
+
+.list-section5right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    place-items: right;
+}
+
+.item5 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 64px;
+    text-align: justify;
+}
+
+
 
 
 

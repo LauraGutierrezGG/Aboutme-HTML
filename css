@@ -1,0 +1,87 @@
+PRUEBA SECTION 5
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
+ }
+
+ p {
+    margin: 10px;
+ }
+</style>
+</head>
+<body>
+
+<div class="container">
+ <img src="image1.jpg" alt="Image 1">
+ <p>Your Text 1</p>
+
+ <img src="image2.jpg" alt="Image 2">
+ <p>Your Text 2</p>
+
+ <img src="image3.jpg" alt="Image 3">
+ <p>Your Text 3</p>
+</div>
+
+</body>
+</html>
+
+----------
+
+<section class="list-section5">
+            
+    <label for="interactiondesign">Interaction Design</label>
+
+    <progress id="interactiondesign" max="100" value="60">
+        60%
+    </progress>
+
+    <label for="figma">Figma</label>
+
+    <progress id="figma" max="100" value="95">
+         95%
+    </progress>
+
+</section>
+
+<section class="list-section5">
+    
+    <label for="usabilitytesting">Usability Testing</label>
+
+    <progress id="usabilitytesting" max="100" value="70">
+        70%
+    </progress>
+
+    <label for="prototyping">Prototyping</label>
+
+    <progress id="prototyping" max="100" value="80">
+        80%
+    </progress>
+
+</section>
+
+<section class="list-section5">
+
+    <label for="userresearch">User Research</label>
+
+    <progress id="userresearch" max="100" value="45">
+        45%
+    </progress>
+
+    <label for="informationarchitecture">Information Architecture</label>
+
+    <progress id="informationarchitecture" max="100" value="50">
+        50%
+    </progress>
+
+</section>
