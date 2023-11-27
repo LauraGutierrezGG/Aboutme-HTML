@@ -1,4 +1,4 @@
-<section class="list-section5">
+<section class="list-section5-1">
             
     <label for="interactiondesign">Interaction Design</label>
 
@@ -14,7 +14,7 @@
 
 </section>
 
-<section class="list-section5">
+<section class="list-section5-2">
     
     <label for="usabilitytesting">Usability Testing</label>
 
@@ -30,7 +30,7 @@
 
 </section>
 
-<section class="list-section5">
+<section class="list-section5-3">
 
     <label for="userresearch">User Research</label>
 
