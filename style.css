@@ -118,7 +118,7 @@ h2 {
         display: flex;
     }
 
-    .item, .item:visited{
+    .header__item, .header__item:visited{
     min-width: 127px;
     max-height: 48px;
     line-height: 48px;
@@ -133,12 +133,12 @@ h2 {
     border: #1F1F1F;
 }
 
-    .item--white, .item--white:visited {
+    .header__item--white, .header__item--white:visited {
         background-color: white;
         border-color: black;
     }
 
-    .item + .item {
+    .header__item + .header__item {
         margin-left: 24px;
     }
 
