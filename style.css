@@ -62,7 +62,7 @@ h3 {
 
 
 
-/* BEM */
+/* TOP_BAR */
 
 .topbar {
     display: flex;
@@ -100,6 +100,7 @@ h3 {
 }
 
 
+/* HEADER */
 
 .header {
     display: flex;
@@ -155,6 +156,7 @@ h3 {
 }
 
 
+/* ABOUT ME */
 
 .section2 {
     align-items: center;
@@ -198,6 +200,7 @@ h3 {
 }
 
 
+/* SERVICES */
 
 .section3 {
     align-items: center;
@@ -219,8 +222,9 @@ h3 {
 
 .section3__list-li {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    text-align: left;
+    padding: 32px;
+    gap: 32px;
 }
 
 .section3__list-img {
@@ -228,7 +232,7 @@ h3 {
     height: 48px;
 }
 
-.section3__list-h6 {
+.section3__list__h6 {
     font-weight: bold;
     font-size: 18px;
     margin: 8px 0; /* Margen superior e inferior */
@@ -239,10 +243,27 @@ h3 {
     text-align: justify;
 }
 
+.services__list__h4 {
+    padding: 24px 0;
+}
 
 
 
+/* My Portfolio */
 
+.section4__list {
+    display: flex;
+    justify-content: center;
+}
+
+.section4__list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 64px;
+    text-align: justify;
+    
+}
 
 
 
@@ -251,12 +272,6 @@ h3 {
 .back-pink {
     background-color: #FFD4D0;
     padding-bottom: 20px;
-}
-
-.list-section4 {
-    display: flex;
-    justify-content: center;
-    
 }
 
 .item4 {
