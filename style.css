@@ -258,7 +258,8 @@ h3 {
 
 .section4__list {
     display: flex;
-    justify-content: center;
+    gap: 64px;
+    align-items: center;
 }
 
 .section4__list__item {
@@ -270,7 +271,25 @@ h3 {
     
 }
 
+.section4__list-arrow {
+    max-width: 45px;
+    max-height: 45px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
+/*Core Desing Skills*/
+
+.section5 {
+    align-items: center;
+}
+
+.section5__p {
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
 
 
 /*

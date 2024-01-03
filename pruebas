@@ -77,5 +77,140 @@
         </li>
 
     </ul>
-    
+
 </section>
+
+
+
+
+
+<section class="section spacing90px bg-lightGrey">
+
+    <h3 class="section__title">Core Design Skills</h3>
+
+    <p>I excel in essential design skills, creating visually stunning and functional digital experiences. </p>
+
+    <div class="coreDesignSkills__list">
+
+        <ul>
+
+            <li>
+                <label for="interactiondesign">Interaction Design</label>
+                <div class="progressAndPercentage">
+                    <progress id="interactiondesign" max="100" value="60"></progress>
+                    <p class="progress__paragraph">60%</p>
+                </div>
+            </li>
+
+            <li>
+                <label for="usabilitytesting">Usability Testing</label>
+                <div class="progressAndPercentage">
+                    <progress id="usabilitytesting" max="100" value="70"></progress>
+                    <p class="progress__paragraph">70%</p>
+                </div>
+            </li>
+
+            <li>
+                <label for="userresearch">User Research</label>
+                <div class="progressAndPercentage">
+                    <progress id="userresearch" max="100" value="45"></progress>
+                    <p class="progress__paragraph">45%</p>
+                </div>
+            </li>
+
+        </ul>
+
+        <ul>
+
+            <li>
+                <label for="figma">Figma</label>
+                <div class="progressAndPercentage">
+                    <progress id="figma" max="100" value="95"></progress>
+                    <p class="progress__paragraph">95%</p>
+                </div>
+            </li>
+
+            <li>
+                <label for="prototyping">Prototyping</label>
+                <div class="progressAndPercentage">
+                    <progress id="prototyping" max="100" value="80"></progress>
+                    <p class="progress__paragraph">80%</p>
+                </div>
+            </li>
+
+            <li>
+                <label for="informationarchitecture">Information Architecture</label>
+                <div class="progressAndPercentage">
+                    <progress id="informationarchitecture" max="100" value="50"></progress>
+                    <p class="progress__paragraph">50%</p>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<section class="section bg-pink positionRelative getInTouch">
+    <div class="getInTouch__circle redCircleAbsolute"></div>
+    <div class="getInTouch__margin positionRelative">
+        <h3 class="section__title">Get in Touch</h3>
+        <p class="getInTouch__paragraph">Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.</p>
+        <dl>
+            <div class="getInTouch__list">
+                <dt><img src="./pictures/phone.PNG" alt="Phone"></dt>
+                <dd>+1205 5872 321</dd>
+            </div>
+            <div class="getInTouch__list">
+                <dt><img src="./pictures/email.PNG" alt="Email"></dt>
+                <dd>contact@sarajonesdesign.com</dd>
+            </div>
+            <div class="getInTouch__list">
+                <dt><img src="./pictures/address.PNG" alt="Address"></dt>
+                <dd>1234 Design Street,Creativeville, Webland,Imaginary State, 98765</dd>
+            </div>
+        </dl>
+        <div class="getInTouch__socialMedia">
+            <a href=""><img src="./pictures/twitter.PNG" alt="Twitter"></a>
+            <a href=""><img src="./pictures/instagram.PNG" alt="Instagram"></a>
+            <a href=""><img src="./pictures/dribble.PNG" alt="Dribble"></a>
+            <a href=""><img src="./pictures/facebook.PNG" alt="Facebook"></a>
+        </div>
+    </div>
+    <form class="getInTouch__margin getInTouch__form" action="">
+        <label for="name">First name and surname/s:</label>
+        <input id="name" type="text" placeholder="Jon Doe"/>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="jon@doe.com"/>
+        <label for="phoneNumber">Phone number:</label>
+        <input id="phoneNumber" type="tel" placeholder="666 666 666"/>
+        <label for="yourMessage">Your message:</label>
+        <textarea id="yourMessage" placeholder="Your message" maxlength="300" cols="30" rows="10"></textarea>
+        <button>Send Message</button>
+    </form>
+</section>
+<footer class="bg-black">
+    <div class="footer__nav">
+        <a href="" class="footer__nav__item--padding">About</a>
+        <a href="">Services</a>
+        <a href="#topBar" class="footer__logo"><img src="./pictures/footer-logo.PNG" alt="Dark Logo"></a>
+        <a href="" class="footer__nav__item--padding">Portfolio</a>
+        <a href="">Blog</a>
+    </div>
+    <p class="footer__paragraph">Follow me on social media:</p>
+    <div class="footer__socialMedia">
+        <a href=""><img src="./pictures/footer-twitter.PNG" alt="White Twitter"></a>
+        <a href=""><img src="./pictures/footer-instagram.PNG" alt="Whtie Instagram"></a>
+        <a href=""><img src="./pictures/footer-dribble.PNG" alt="White Dribble"></a>
+        <a href=""><img src="./pictures/footer-facebook.PNG" alt="White Facebook"></a>
+    </div>
+</footer>
+</body>
+<script src="./index.js"></script>
+</html>
