@@ -1,47 +1,81 @@
-<section class="list-section5-1">
-            
-    <label for="interactiondesign">Interaction Design</label>
+<section class="section bg-pinkAndLightGrey">
 
-    <progress id="interactiondesign" max="100" value="60">
-        60%
-    </progress>
+    <h3 class="section__title">My Portfolio</h3>
 
-    <label for="figma">Figma</label>
+    <p class="myPortfolio__paragraph">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
 
-    <progress id="figma" max="100" value="95">
-         95%
-    </progress>
+    <ul class="myPortfolio__list">
 
-</section>
+        <li>
+            <img src="./pictures/educational_platform.jpg" alt="Educational Platform">
+            <div class="myPortfolio__textAndIcon">
+                <div class="myPortfolio__text">
+                    <a href="">Educational Platform</a>
+                    <p>Web Design/Usability Testing</p>
+                </div>
+                <a href=""><img class="myPortfolio__arrow" src="./pictures/arrow.PNG" alt="Arrow"></a>
+            </div>
+        </li>
 
-<section class="list-section5-2">
+        <li>
+            <img src="./pictures/travel_app.jpg" alt="Travel App">
+            <div class="myPortfolio__textAndIcon">
+                <div class="myPortfolio__text">
+                    <a href="">Travel App Design</a>
+                    <p>UX Research/App Design</p>
+                </div>
+                <a href=""><img class="myPortfolio__arrow" src="./pictures/arrow.PNG" alt="Arrow"></a>
+            </div>
+        </li>
+
+        <li>
+            <img src="./pictures/personal_page.jpg" alt="Personal Page">
+            <div class="myPortfolio__textAndIcon">
+                <div class="myPortfolio__text">
+                    <a href="">Personal Page</a>
+                    <p>Web Design</p>
+                </div>
+                <a href=""><img class="myPortfolio__arrow" src="./pictures/arrow.PNG" alt="Arrow"></a>
+            </div>
+        </li>
+
+    </ul>
+
+    <ul class="myPortfolio__list">
+
+        <li>
+            <img src="./pictures/furniture_app.jpg" alt="Furniture App">
+            <div class="myPortfolio__textAndIcon">
+                <div class="myPortfolio__text">
+                    <a href="">Furniture Mobile App</a>
+                    <p>App Design</p>
+                </div>
+                <a href=""><img class="myPortfolio__arrow" src="./pictures/arrow.PNG" alt="Arrow"></a>
+            </div>
+        </li>
+
+        <li>
+            <img src="./pictures/coffee.jpg" alt="Coffee">
+            <div class="myPortfolio__textAndIcon">
+                <div class="myPortfolio__text">
+                    <a href="">Coffee House</a>
+                    <p>UX Research/Web Design</p>
+                </div>
+                <a href=""><img class="myPortfolio__arrow" src="./pictures/arrow.PNG" alt="Arrow"></a>
+            </div>
+        </li>
+
+        <li>
+            <img src="./pictures/home_services.jpg" alt="Home Services">
+            <div class="myPortfolio__textAndIcon">
+                <div class="myPortfolio__text">
+                    <a href="">Home Services Page</a>
+                    <p>Web Design/Marketing</p>
+                </div>
+                <a href=""><img class="myPortfolio__arrow" src="./pictures/arrow.PNG" alt="Arrow"></a>
+            </div>
+        </li>
+
+    </ul>
     
-    <label for="usabilitytesting">Usability Testing</label>
-
-    <progress id="usabilitytesting" max="100" value="70">
-        70%
-    </progress>
-
-    <label for="prototyping">Prototyping</label>
-
-    <progress id="prototyping" max="100" value="80">
-        80%
-    </progress>
-
-</section>
-
-<section class="list-section5-3">
-
-    <label for="userresearch">User Research</label>
-
-    <progress id="userresearch" max="100" value="45">
-        45%
-    </progress>
-
-    <label for="informationarchitecture">Information Architecture</label>
-
-    <progress id="informationarchitecture" max="100" value="50">
-        50%
-    </progress>
-
 </section>

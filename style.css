@@ -212,19 +212,19 @@ h3 {
     text-align: center;
 }
 
-.section3__list {
+.section3_list {
     display: flex;
     justify-content: space-between;
-    padding: 0;
     list-style: none;
+    padding: 0;
     gap: 32px; /* Espacio entre elementos li */
 }
 
 .section3__list-li {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     text-align: left;
-    padding: 32px;
-    gap: 32px;
 }
 
 .section3__list-img {
@@ -235,7 +235,7 @@ h3 {
 .section3__list__h6 {
     font-weight: bold;
     font-size: 18px;
-    margin: 8px 0; /* Margen superior e inferior */
+    margin: 8px 0;
 }
 
 .section3__list-p {
@@ -243,13 +243,18 @@ h3 {
     text-align: justify;
 }
 
-.services__list__h4 {
-    padding: 24px 0;
-}
-
-
 
 /* My Portfolio */
+
+.section4 {
+    align-items: center;
+}
+
+.section4__p {
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
 
 .section4__list {
     display: flex;
