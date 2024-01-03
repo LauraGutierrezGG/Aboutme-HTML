@@ -291,6 +291,32 @@ h3 {
     text-align: center;
 }
 
+.section5__list {
+    margin-top: 64px;
+    display: flex;
+    gap: 120px;
+    text-align: left;
+    margin-left: calc(50% - (470px + 120px / 2));
+}
+
+.section5__list li {
+    display: grid;
+}
+
+.section5__list label {
+    font-weight: bold;
+    padding: 6px 0;
+}
+
+.section5__list-percentage {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.section5__list-progress {
+    font-weight: bold;
+}
 
 /*
 .back-pink {
