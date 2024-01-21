@@ -36,8 +36,6 @@ h3 {
 
 
 
-
-
 /* Utilities */
 
 .bg-pink {
@@ -56,10 +54,6 @@ h3 {
 .color-white {
     color: #FFFFFF;
 }
-
-
-
-
 
 
 
@@ -135,12 +129,12 @@ h3 {
 }
 
 .item {
-    display: block;
+    display: inline-block;
     padding: 12px 36px;
     text-align: center;
     line-height: 1; /* Alinear texto verticalmente y elimina espacio extra predeterminado */
-    border: 10px #1F1F1F; /* Borde negro */
     margin-right: 20px; /* Espacio entre elementos */
+    cursor: pointer;
 }
 
 .black-square {
@@ -150,6 +144,7 @@ h3 {
 
 .white-square {
     background-color: white; /* Fondo blanco */
+    border: 10px #1F1F1F; /* Borde negro */
 }
 
 .header__image{
@@ -264,6 +259,7 @@ h3 {
     display: flex;
     gap: 64px;
     align-items: center;
+    
 }
 
 .section4__list__item {
@@ -273,6 +269,16 @@ h3 {
     margin-right: 64px;
     text-align: justify;
     
+}
+
+.description-section4 {
+    font-size: 14px;
+}
+
+.link-section4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 32px;
 }
 
 .section4__list-arrow {
